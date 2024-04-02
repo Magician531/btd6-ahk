@@ -113,6 +113,7 @@ InGame() {
 }
 
 OpenBoxes() {
+    ChooseInsta()
     ClickImage("buttons\collect", 2000)
     LogMsg("Opening boxes")
     While !SearchImage("states\event") {
