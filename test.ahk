@@ -1,6 +1,4 @@
-#Include maps\_include.ahk
-#Include utils\_include.ahk
-#Include data\_include.ahk
+
 
 ^!+j:: {
     TestHeroSelection()
@@ -12,8 +10,6 @@
 }
 
 TestHeroSelection() {
-    for hero in HERO_SKINS {
-        global hero := hero
-        ChangeHero(hero)
-    }
+    test := IniRead("config.ini", "settings")
+    LogMsg(test)
 }

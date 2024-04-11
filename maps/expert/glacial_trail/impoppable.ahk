@@ -23,7 +23,7 @@ GlacialTrailImpoppable() {
     Place("Druid")
 
     WaitForRound(24)
-    Upgrade("Druid", 1, 3, 0, true)     ; 000 -> 130
+    Upgrade("Druid", 1, 3, 0)           ; 000 -> 130
 
     WaitForRound(32)
     Place("Spike A")
@@ -68,6 +68,8 @@ GlacialTrailImpoppable() {
     WaitForRound(87)
     Upgrade("Spike B", 0, 1, 0)         ; 240 -> 250
 
-    WaitForRound(98)
-    Upgrade("Wizard", 0, 2, 0, true)    ; 130 -> 150
+    WaitForRound(97)
+    Sell("Druid")
+    Place("Druid")
+    Upgrade("Druid", 1, 5, 0) 
 }
