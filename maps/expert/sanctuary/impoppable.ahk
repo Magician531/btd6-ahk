@@ -12,30 +12,30 @@ SanctuaryImpoppable() {
         "Dart B", ["dart", [1369, 363]],        ; [3,7] mod 8
         "Dart B 2", ["", [1430, 118]],          ; 5 mod 8
         "Ben", ["hero", [1294, 564]],           ; [0,4] mod 8
-        "Sniper", ["sniper", [1362, 547]],      ; [0,2] mod 8
+        "Sniper", ["sniper", [1362, 546]],      ; [0,2] mod 8
         "Sniper 2", ["", [1580, 310]],          ; [4,6]
-        "Village A", ["village", [818, 153]],   ; 0 mod 2
-        "Alch A", ["alch", [1036, 43]],         ; 1 mod 4
+        "Village A", ["village", [820, 156]],   ; 0 mod 2
+        "Alch A", ["alch", [1036, 46]],         ; 1 mod 4
         "Farm A", ["farm", [1494, 975]],        ; 3 mod 6
         "Farm A 2", ["", [1207, 868]],          ; 0 mod 6
         "Farm B", ["farm", [761, 975]],         ; 0 mod 2
         "Super", ["super", [1010, 260]],        ; 1 mod 4
         "Super 2", ["", [870, 290]],            ; 0 mod 2
-        "Alch B", ["alch", [783, 61]],          ; 0 mod 2
+        "Alch B", ["alch", [783, 63]],          ; 0 mod 2
         "Farm C", ["farm", [388, 897]],         ; [0,2] mod 6
         "Farm D", ["farm", [212, 278]],         ; [2,4] mod 8
         "Wizard", ["wizard", [767, 275]],       ; 0 mod 2
-        "Glue A", ["glue", [1435, 335]],        ; [3,7] mod 8
+        "Glue A", ["glue", [1435, 336]],        ; [3,7] mod 8
         "Boomer A", ["boomer", [1248, 430]],    ; [0,2] mod 8
         "Boomer B", ["boomer", [1211, 488]],    ; [0,2] mod 8
-        "Village B", ["village", [728, 1030]],  ; 0 mod 2
+        "Village B", ["village", [728, 1027]],  ; 0 mod 2
         "Spike", ["spike", [762, 929]],         ; 0 mod 2
-        "Alch C", ["alch", [820, 1022]],        ; 0 mod 2
-        "Glue B", ["glue", [199, 220]],         ; [2,4] mod 8
-        "Boomer C", ["boomer", [201, 281]],     ; [2,4] mod 8
-        "Boomer D", ["boomer", [272, 304]],     ; [2,4] mod 8
-        "Boomer E", ["boomer", [229, 358]],     ; [2,4] mod 8
-        "Village C", ["village", [132, 342]],   ; [2,4] mod 8
+        "Alch C", ["alch", [820, 1019]],        ; 0 mod 2
+        "Glue B", ["glue", [199, 221]],         ; [2,4] mod 8
+        "Boomer C", ["boomer", [258, 254]],     ; [2,4] mod 8
+        "Boomer D", ["boomer", [268, 319]],     ; [2,4] mod 8
+        "Boomer E", ["boomer", [209, 360]],     ; [2,4] mod 8
+        "Village C", ["village", [115, 306]],   ; [2,4] mod 8
         "Village C 2", ["", [590, 610]]         ; 7 mod 8
     )
 

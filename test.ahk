@@ -1,15 +1,25 @@
+#SingleInstance Force
+#MaxThreadsPerHotkey 3
+#Include %A_ScriptDir%
 
+#Include maps\_include.ahk
+#Include utils\_include.ahk
+#Include data\_include.ahk
 
 ^!+j:: {
     TestHeroSelection()
 }
 
 ^!+p:: {
-    LogMsg("Script stopped")
+
     Reload()
 }
 
 TestHeroSelection() {
-    test := IniRead("config.ini", "settings")
-    LogMsg(test)
+    counter := 0
+    while(ClickImage("towers\" "ace") != true){
+        ++counter
+        Sleep(1000)
+    }
 }
+

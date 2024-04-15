@@ -3,19 +3,21 @@ InfernalImpoppable() {
     global TS := Map(
         "Dart", ["dart", [467, 280]],
         "Sub", ["sub", [473, 786]],
-        "Ben", ["hero", [1187, 891]],
-        "Farm", ["farm", [1563, 588]],
-        "Sniper A", ["sniper", [147, 618]],
-        "Boat A", ["boat", [427, 844]],
+        "Ben", ["hero", [1200, 845]],
+        "Farm", ["farm", [1559, 586]],
+        "Sniper A", ["sniper", [147, 584]],
+        "Boat A", ["boat", [441, 860]],
         "Druid A", ["druid", [846, 385]],
-        "Boat B", ["boat", [1177, 175]],
+        "Boat B", ["boat", [1173, 182]],
         "Boat C", ["boat", [1175, 263]],
         "Druid B", ["druid", [839, 695]],
-        "Druid C", ["druid", [827, 790]],
-        "Village", ["village", [85, 677]],
-        "Sniper B", ["sniper", [58, 549]],
-        "Alch", ["alch", [58, 492]],
-        "Sniper C", ["sniper", [153, 561]]
+        "Druid C", ["druid", [832, 788]],
+        "Village", ["village", [90, 658]],
+        "Sniper B", ["sniper", [62, 549]],
+        "Alch", ["alch", [67, 491]],
+        "Sniper C", ["sniper", [132, 518]],
+	"Ace", ["ace", [1559, 586]],
+	"Alch B", ["alch", [472, 213]]
     )
     
     CheckDoubleCash()
@@ -27,7 +29,7 @@ InfernalImpoppable() {
 
     Upgrade("Sub", 1, 0, 0, true)       ; 000 -> 100
 
-    WaitForRound(7)
+    WaitForRound(7)		
     Upgrade("Sub", 1, 0, 0, true)       ; 100 -> 200
 
     WaitForRound(10)
@@ -160,4 +162,10 @@ InfernalImpoppable() {
 
     WaitForRound(94)
     Upgrade("Alch", 1, 0, 0, true)      ; 420 -> 520
+    
+    Place("Ace", true)
+    Upgrade("Ace", 0, 2, 5, true)       ; 000 -> 025
+    Place("Alch B", true)
+    Upgrade("Alch B", 0, 0, 5, true)    ; 000 -> 005
+    Upgrade("Dart", 0, 2, 3, true)      ; 002 -> 025
 }

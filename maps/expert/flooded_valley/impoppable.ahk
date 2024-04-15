@@ -1,27 +1,27 @@
 FloodedValleyImpoppable() {
     global mouseRest := [248, 604]
     global TS := Map(
-        "Sub A", ["sub", [926, 166]],
+        "Sub A", ["sub", [927, 166]],
         "Sub B", ["sub", [995, 767]],
-        "Ben", ["hero", [69, 159]],
-        "Farm A",["farm", [107, 757]],
-        "Sniper A", ["sniper", [280, 826]],
-        "Farm B", ["farm", [107, 616]],
-        "Village A", ["village", [248, 707]],
-        "Village B", ["village", [248, 604]],
-        "Farm C", ["farm", [151, 475]],
-        "Farm D", ["farm", [313, 482]],
-        "Sniper B", ["sniper", [234, 786]],
-        "Sniper C", ["sniper", [302, 772]],
+        "Ben", ["hero", [69, 156]],
+        "Farm A",["farm", [114, 756]],
+        "Sniper A", ["sniper", [227, 783]],
+        "Farm B", ["farm", [114, 616]],
+        "Village A", ["village", [254, 707]],
+        "Village B", ["village", [254, 604]],
+        "Farm C", ["farm", [154, 475]],
+        "Farm D", ["farm", [316, 482]],
+        "Sniper B", ["sniper", [269, 826]],
+        "Sniper C", ["sniper", [304, 779]],
         "Alch A", ["alch", [161, 856]],
-        "Ace", ["ace", [383, 595]],
-        "Alch B", ["alch", [427, 515]],
-        "Druid A", ["druid", [336, 670]],
-        "Druid B", ["druid", [412, 670]],
+        "Ace", ["ace", [389, 595]],
+        "Alch B", ["alch", [430, 515]],
+        "Druid A", ["druid", [341, 670]],
+        "Druid B", ["druid", [417, 670]],
         "Druid C", ["druid", [357, 734]],
-        "Druid D", ["druid", [434, 733]],
+        "Druid D", ["druid", [434, 734]],
         "Sub C", ["sub", [1008, 832]],
-        "Alch C", ["alch", [275, 631]]
+        "Alch C", ["alch", [274, 629]]
     )
     
     CheckDoubleCash(true, false)

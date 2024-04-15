@@ -9,7 +9,7 @@ ChooseInsta(){
     ]
 
     for preference in instaPreferences{
-        if allTowers.Has(preference){
+        if (ArrayHas(allTowers, preference)){
             if ClickInsta(preference){
                 LogMsg("Selected " preference)
                 return
@@ -22,6 +22,7 @@ ChooseInsta(){
 }
 
 ClickInsta(preference){
+    LogMsg("looking for " preference)
     if ClickImage("towers\" preference, , , 1105, 284, 1194, 374){
         return true
     } else if (ClickImage("towers\" preference, , , 1105, 374, 1194, 453)){
@@ -33,5 +34,14 @@ ClickInsta(preference){
     } else{
         return false
     }
+}
+
+ArrayHas(testArray, val){
+    for member in testArray{
+        if (member = val){
+            return true
+        }
+    }
+    return false
 }
 

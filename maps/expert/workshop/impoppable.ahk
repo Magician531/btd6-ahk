@@ -3,25 +3,25 @@ WorkshopImpoppable() {
     global TS := Map(
         "Dart A", ["dart", [132, 622]],
         "Dart B", ["dart", [600, 502]],
-        "Dart C", ["dart", [1024, 502]],
+        "Dart C", ["dart", [1023, 502]],
         "Sniper A", ["sniper", [897, 496]],
-        "Ben", ["hero", [1005, 30]],
+        "Ben", ["hero", [1004, 32]],
         "Dart D", ["dart", [768, 497]],
-        "Spike A", ["spike", [1599, 629]],
+        "Spike A", ["spike", [1598, 629]],
         "Druid", ["druid", [943, 626]],
         "Farm A", ["farm", [1222, 421]],
         "Farm B", ["farm", [1224, 177]],
         "Farm C", ["farm", [1386, 185]],
         "Village A", ["village", [1215, 299]],
-        "Wizard", ["wizard", [1020, 479]],
-        "Village B", ["village", [1004, 334]],
-        "Alch A", ["alch", [1024, 412]],
+        "Wizard", ["wizard", [1019, 479]],
+        "Village B", ["village", [1003, 335]],
+        "Alch A", ["alch", [1023, 413]],
         "Village C", ["village", [1365, 689]],
         "Alch B", ["alch", [1453, 622]],
-        "Spike B", ["spike", [1601, 704]],
+        "Spike B", ["spike", [1598, 704]],
         "Alch C", ["alch", [1457, 679]],
         "Ace", ["ace", [1378, 783]],
-        "Sniper B", ["sniper", [1241, 754]]
+        "Sniper B", ["sniper", [1240, 758]]
     )
     
     CheckDoubleCash()
@@ -190,4 +190,5 @@ WorkshopImpoppable() {
 
     WaitForRound(91)
     Upgrade("Sniper B", 1, 0, 0, true)  ; 402 -> 502
+    Upgrade("Druid", 0, 2, 0, true)     ; 130 -> 150
 }

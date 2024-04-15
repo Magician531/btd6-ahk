@@ -1,30 +1,30 @@
 QuadImpoppable() {
     global mouseRest := [1105, 272]
     global TS := Map(
-        "Dart A", ["dart", [398, 560]],
-        "Dart B", ["dart", [831, 268]],
-        "Dart C", ["dart", [1284, 560]],
-        "Dart D", ["dart", [832, 844]],
+        "Dart A", ["dart", [400, 560]],
+        "Dart B", ["dart", [831, 270]],
+        "Dart C", ["dart", [1282, 560]],
+        "Dart D", ["dart", [832, 842]],
         "Sniper A", ["sniper", [978, 458]],
         "Ben", ["hero", [1175, 770]],
         "Dart E", ["dart", [530, 321]],
         "Dart F", ["dart", [530, 794]],
-        "Sub", ["sub", [883, 426]],
+        "Sub", ["sub", [883, 427]],
         "Farm A", ["farm", [1032, 150]],
         "Farm B", ["farm", [1195, 150]],
-        "Druid A", ["druid", [761, 843]],
+        "Druid A", ["druid", [761, 841]],
         "Alch A", ["alch", [822, 389]],
         "Farm C", ["farm", [1246, 291]],
         "Village A", ["village", [1105, 272]],
-        "Druid B", ["druid", [973, 331]],
-        "Village B", ["village", [1036, 396]],
-        "Druid C", ["druid", [1123, 436]],
-        "Druid D", ["druid", [1267, 394]],
-        "Sniper B", ["sniper", [944, 387]],
+        "Druid B", ["druid", [973, 333]],
+        "Village B", ["village", [1045, 404]],
+        "Druid C", ["druid", [1123, 454]],
+        "Druid D", ["druid", [1263, 394]],
+        "Sniper B", ["sniper", [953, 391]],
         "Alch B", ["alch", [903, 343]],
-        "Sniper C", ["sniper", [927, 285]],
-        "Ace", ["ace", [1176, 511]],
-        "Alch C", ["alch", [1068, 516]],
+        "Sniper C", ["sniper", [926, 285]],
+        "Ace", ["ace", [1076, 529]],
+        "Alch C", ["alch", [1073, 600]],
         "Super", ["super", [823, 304]]
     )
     
@@ -225,4 +225,5 @@ QuadImpoppable() {
 
     WaitForRound(91)
     Upgrade("Sniper A", 1, 0, 0, true)  ; 402 -> 502
+    Upgrade("Druid D", 0, 2, 0, true)   ; 130 -> 150
 }

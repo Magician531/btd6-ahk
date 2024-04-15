@@ -2,27 +2,27 @@ RavineImpoppable() {
     global mouseRest := [325, 925]
     global TS := Map(
         "Dart A", ["dart", [220, 497]],
-        "Dart B", ["dart", [282, 662]],
+        "Dart B", ["dart", [284, 662]],
         "Dart C", ["dart", [742, 798]],
         "Dart D", ["dart", [861, 975]],
         "Sniper A", ["sniper", [678, 810]],
         "Ben", ["hero", [1004, 141]],
         "Sniper B", ["sniper", [1026, 200]],
         "Druid A", ["druid", [1067, 331]],
-        "Farm A", ["farm", [107, 989]],
-        "Farm B", ["farm", [269, 988]],
-        "Village A", ["village", [178, 867]],
-        "Village B", ["village", [297, 866]],
-        "Farm C", ["farm", [438, 868]],
-        "Druid B", ["druid", [284, 668]],
+        "Farm A", ["farm", [110, 989]],
+        "Farm B", ["farm", [272, 986]],
+        "Village A", ["village", [182, 865]],
+        "Village B", ["village", [301, 864]],
+        "Farm C", ["farm", [441, 865]],
+        "Druid B", ["druid", [287, 667]],
         "Alch A", ["alch", [742, 798]],
-        "Ace", ["ace", [287, 755]],
-        "Alch B", ["alch", [395, 769]],
+        "Ace", ["ace", [290, 753]],
+        "Alch B", ["alch", [398, 767]],
         "Village C", ["village", [524, 800]],
         "Sniper C", ["sniper", [616, 827]],
-        "Sub", ["sub", [63, 149]],
-        "Dart E", ["dart", [1354, 260]],
-        "Dart F", ["dart", [699, 99]]
+        "Sub", ["sub", [67, 151]],
+        "Dart E", ["dart", [1352, 261]],
+        "Dart F", ["dart", [699, 101]]
     )
     
     CheckDoubleCash(true, false)

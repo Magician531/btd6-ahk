@@ -1,13 +1,13 @@
 GlacialTrailImpoppable() {
     global TS := Map(
-        "Sauda", ["hero", [312, 537]],
-        "Wizard", ["wizard", [209, 406]],
-        "Druid", ["druid", [237, 549]],
-        "Spike A", ["spike", [1434, 671]],
-        "Alch", ["alch", [1453, 735]],
-        "Farm", ["farm", [1563, 1011]],
-        "Mortar", ["mortar", [244, 133]],
-        "Spike B", ["spike", [1161, 576]]
+        "Sauda", ["hero", [312, 539]],
+        "Wizard", ["wizard", [209, 405]],
+        "Druid", ["druid", [238, 554]],
+        "Spike A", ["spike", [1426, 669]],
+        "Alch", ["alch", [1453, 739]],
+        "Farm", ["farm", [1559, 1003]],
+        "Mortar", ["mortar", [244, 129]],
+        "Spike B", ["spike", [1159, 574]]
     )
 
     Place("Sauda")
@@ -17,13 +17,13 @@ GlacialTrailImpoppable() {
     WaitForRound(15)
     Place("Wizard")
     Upgrade("Wizard", 1, 2, 0)          ; 000 -> 120
-    Aim("Wizard", 413, 467)
+    Aim("Wizard", 411, 467)
 
     WaitForRound(20)
     Place("Druid")
 
     WaitForRound(24)
-    Upgrade("Druid", 1, 3, 0)           ; 000 -> 130
+    Upgrade("Druid", 1, 3, 0, true)     ; 000 -> 130
 
     WaitForRound(32)
     Place("Spike A")
@@ -68,8 +68,6 @@ GlacialTrailImpoppable() {
     WaitForRound(87)
     Upgrade("Spike B", 0, 1, 0)         ; 240 -> 250
 
-    WaitForRound(97)
-    Sell("Druid")
-    Place("Druid")
-    Upgrade("Druid", 1, 5, 0) 
+    WaitForRound(98)
+    Upgrade("Wizard", 0, 2, 0, true)    ; 130 -> 150
 }
