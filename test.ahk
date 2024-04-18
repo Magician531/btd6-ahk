@@ -17,7 +17,7 @@
 
 TestHeroSelection() {
     counter := 0
-    while(ClickImage("towers\" "ace") != true){
+    while(ClickImage("towers\" "wizard") != true){
         ++counter
         Sleep(1000)
     }

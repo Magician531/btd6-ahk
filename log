@@ -1,58 +1,623 @@
-[22:56:22] Script started
-[22:56:22] home
-[22:56:24] map_selection
-[22:56:28] Selected map: Bloody Puddles
-[22:56:29] Changing the hero to benjamin
-[22:56:35] Selected difficulty: Impoppable
-[22:56:39] in_game
-[22:56:40] Checking quick settings
-[22:56:42] Quick settings checked
-[22:56:44] Double Cash detected
-[23:07:04] Waiting for the game to end...
-[23:11:15] Insta monkey detected
-[23:11:21] Victory (1 Victory, 0 Defeats)
-[23:11:22] collect
-[23:11:22] looking for super
-[23:11:22] Selected random
-[23:11:24] Opening boxes
-[23:11:32] event
-[23:11:33] home
-[23:11:35] map_selection
-[23:11:37] Selected map: Sanctuary
-[23:11:39] Selected difficulty: Impoppable
-[23:11:44] in_game
-[23:27:06] Waiting for the game to end...
-[23:29:02] Insta monkey detected
-[23:29:08] Victory (2 Victories, 0 Defeats)
-[23:29:08] collect
-[23:29:08] looking for super
-[23:29:09] Selected random
-[23:29:11] Opening boxes
-[23:29:18] event
-[23:29:20] home
-[23:29:21] map_selection
-[23:29:24] Selected map: Flooded Valley
-[23:29:27] Selected difficulty: Impoppable
-[23:29:31] in_game
-[23:29:32] Double Cash detected
-[23:41:02] Waiting for the game to end...
-[23:43:52] Insta monkey detected
-[23:43:58] Victory (3 Victories, 0 Defeats)
-[23:43:59] collect
-[23:43:59] looking for super
-[23:43:59] Selected random
-[23:44:01] Opening boxes
-[23:44:09] event
-[23:44:10] home
-[23:44:12] map_selection
-[23:44:14] Selected map: Sanctuary
-[23:44:16] Selected difficulty: Impoppable
-[23:44:21] in_game
-[23:59:46] Waiting for the game to end...
-[00:01:15] Defeat on round 98
-[00:01:15] home
-[00:01:17] map_selection
-[00:01:19] Selected map: Sanctuary
-[00:01:22] Selected difficulty: Impoppable
-[00:01:26] in_game
-[00:09:45] Script stopped
+[00:19:32] Script started
+[00:19:32] home
+[00:19:34] map_selection
+[00:19:38] Selected map: Bloody Puddles
+[00:19:40] Selected difficulty: Impoppable
+[00:19:44] in_game
+[00:19:45] Checking quick settings
+[00:19:47] Quick settings checked
+[00:19:49] Double Cash detected
+[00:30:11] Waiting for the game to end...
+[00:34:17] Insta monkey detected
+[00:34:23] Victory (1 Victory, 0 Defeats)
+[00:34:24] Menu state not recognized
+[00:34:34] collect
+[00:34:44] looking for farm
+[00:34:44] looking for ace
+[00:34:44] looking for druid
+[00:34:45] looking for wizard
+[00:34:45] Selected random
+[00:34:47] Opening boxes
+[00:34:54] event
+[00:34:56] home
+[00:34:57] map_selection
+[00:35:01] Selected map: Muddy Puddles
+[00:35:03] Selected difficulty: Impoppable
+[00:35:08] in_game
+[00:35:09] Double Cash detected
+[00:44:25] Waiting for the game to end...
+[00:49:23] Insta monkey detected
+[00:49:28] Victory (2 Victories, 0 Defeats)
+[00:49:29] collect
+[00:49:39] looking for farm
+[00:49:39] looking for ace
+[00:49:39] looking for druid
+[00:49:39] looking for wizard
+[00:49:39] Selected random
+[00:49:41] Opening boxes
+[00:49:49] event
+[00:49:50] home
+[00:49:52] map_selection
+[00:49:54] Selected map: Ravine
+[00:49:56] Selected difficulty: Impoppable
+[00:50:01] in_game
+[00:50:02] Double Cash detected
+[01:00:59] Waiting for the game to end...
+[01:04:41] Insta monkey detected
+[01:04:47] Victory (3 Victories, 0 Defeats)
+[01:04:48] collect
+[01:04:58] looking for farm
+[01:04:58] looking for ace
+[01:04:58] looking for druid
+[01:04:58] looking for wizard
+[01:04:58] Selected random
+[01:05:00] Opening boxes
+[01:05:08] event
+[01:05:09] home
+[01:05:10] map_selection
+[01:05:13] Selected map: Dark Dungeons
+[01:05:15] Selected difficulty: Impoppable
+[01:05:19] in_game
+[01:05:20] Double Cash detected
+[01:16:07] Waiting for the game to end...
+[01:20:30] Insta monkey detected
+[01:20:36] Victory (4 Victories, 0 Defeats)
+[01:20:36] home
+[01:20:37] map_selection
+[01:20:41] Selected map: Workshop
+[01:20:44] Selected difficulty: Impoppable
+[01:20:48] in_game
+[01:20:49] Double Cash detected
+[01:32:25] Waiting for the game to end...
+[01:35:30] Insta monkey detected
+[01:35:36] Victory (5 Victories, 0 Defeats)
+[01:35:36] collect
+[01:35:46] looking for farm
+[01:35:46] looking for ace
+[01:35:46] looking for druid
+[01:35:46] looking for wizard
+[01:35:46] Selected random
+[01:35:48] Opening boxes
+[01:35:56] event
+[01:35:58] home
+[01:35:59] map_selection
+[01:36:01] Selected map: Dark Dungeons
+[01:36:03] Selected difficulty: Impoppable
+[01:36:08] in_game
+[01:36:09] Double Cash detected
+[01:46:56] Waiting for the game to end...
+[01:51:18] Insta monkey detected
+[01:51:24] Victory (6 Victories, 0 Defeats)
+[01:51:24] collect
+[01:51:34] looking for farm
+[01:51:34] looking for ace
+[01:51:34] looking for druid
+[01:51:34] looking for wizard
+[01:51:34] Selected random
+[01:51:37] Opening boxes
+[01:51:44] event
+[01:51:46] home
+[01:51:47] map_selection
+[01:51:49] Selected map: Glacial Trail
+[01:51:51] Changing the hero to sauda
+[01:51:56] Selected difficulty: Impoppable
+[01:52:00] in_game
+[02:08:50] Waiting for the game to end...
+[02:09:21] Insta monkey detected
+[02:09:27] Victory (7 Victories, 0 Defeats)
+[02:09:27] collect
+[02:09:37] looking for farm
+[02:09:37] looking for ace
+[02:09:37] looking for druid
+[02:09:37] looking for wizard
+[02:09:38] Selected random
+[02:09:40] Opening boxes
+[02:09:47] event
+[02:09:49] home
+[02:09:50] map_selection
+[02:09:53] Selected map: Flooded Valley
+[02:09:54] Changing the hero to benjamin
+[02:09:59] Selected difficulty: Impoppable
+[02:10:03] in_game
+[02:10:04] Double Cash detected
+[02:21:34] Waiting for the game to end...
+[02:24:24] Insta monkey detected
+[02:24:30] Victory (8 Victories, 0 Defeats)
+[02:24:30] home
+[02:24:31] map_selection
+[02:24:34] Selected map: Infernal
+[02:24:36] Selected difficulty: Impoppable
+[02:24:41] in_game
+[02:24:42] Double Cash detected
+[02:37:53] Waiting for the game to end...
+[02:39:03] Insta monkey detected
+[02:39:09] Victory (9 Victories, 0 Defeats)
+[02:39:09] collect
+[02:39:19] looking for farm
+[02:39:19] looking for ace
+[02:39:19] looking for druid
+[02:39:19] looking for wizard
+[02:39:20] Selected random
+[02:39:22] Opening boxes
+[02:39:29] event
+[02:39:31] home
+[02:39:32] map_selection
+[02:39:36] Selected map: #Ouch
+[02:39:38] Selected difficulty: Impoppable
+[02:39:43] in_game
+[02:39:44] Double Cash detected
+[02:51:30] Waiting for the game to end...
+[02:54:13] Insta monkey detected
+[02:54:19] Victory (10 Victories, 0 Defeats)
+[02:54:19] collect
+[02:54:29] looking for farm
+[02:54:29] looking for ace
+[02:54:29] looking for druid
+[02:54:29] looking for wizard
+[02:54:29] Selected random
+[02:54:31] Opening boxes
+[02:54:39] event
+[02:54:41] home
+[02:54:42] map_selection
+[02:54:46] Selected map: Dark Castle
+[02:54:48] Selected difficulty: Impoppable
+[02:54:53] in_game
+[02:54:54] Double Cash detected
+[03:05:25] Waiting for the game to end...
+[03:09:33] Insta monkey detected
+[03:09:39] Victory (11 Victories, 0 Defeats)
+[03:09:39] collect
+[03:09:49] looking for farm
+[03:09:49] looking for ace
+[03:09:49] looking for druid
+[03:09:50] looking for wizard
+[03:09:50] Selected random
+[03:09:52] Opening boxes
+[03:09:59] event
+[03:10:01] home
+[03:10:02] map_selection
+[03:10:04] Selected map: Dark Dungeons
+[03:10:07] Selected difficulty: Impoppable
+[03:10:11] in_game
+[03:10:12] Double Cash detected
+[03:20:58] Waiting for the game to end...
+[03:25:19] Insta monkey detected
+[03:25:25] Victory (12 Victories, 0 Defeats)
+[03:25:25] collect
+[03:25:35] looking for farm
+[03:25:35] looking for ace
+[03:25:35] looking for druid
+[03:25:35] looking for wizard
+[03:25:35] Selected random
+[03:25:37] Opening boxes
+[03:25:45] event
+[03:25:47] home
+[03:25:48] map_selection
+[03:25:52] Selected map: #Ouch
+[03:25:54] Selected difficulty: Impoppable
+[03:25:59] in_game
+[03:26:00] Double Cash detected
+[03:37:46] Waiting for the game to end...
+[03:40:28] Insta monkey detected
+[03:40:34] Victory (13 Victories, 0 Defeats)
+[03:40:34] home
+[03:40:35] map_selection
+[03:40:39] Selected map: Bloody Puddles
+[03:40:42] Selected difficulty: Impoppable
+[03:40:46] in_game
+[03:40:47] Double Cash detected
+[03:51:07] Waiting for the game to end...
+[03:55:18] Insta monkey detected
+[03:55:24] Victory (14 Victories, 0 Defeats)
+[03:55:24] collect
+[03:55:34] looking for farm
+[03:55:34] looking for ace
+[03:55:35] looking for druid
+[03:55:35] looking for wizard
+[03:55:35] Selected random
+[03:55:37] Opening boxes
+[03:55:44] event
+[03:55:46] home
+[03:55:47] map_selection
+[03:55:51] Selected map: Quad
+[03:55:54] Selected difficulty: Impoppable
+[03:55:58] in_game
+[03:55:59] Double Cash detected
+[04:08:12] Waiting for the game to end...
+[04:12:21] Insta monkey detected
+[04:12:27] Victory (15 Victories, 0 Defeats)
+[04:12:27] collect
+[04:12:37] looking for farm
+[04:12:38] looking for ace
+[04:12:38] looking for druid
+[04:12:38] looking for wizard
+[04:12:38] Selected random
+[04:12:40] Opening boxes
+[04:12:48] event
+[04:12:49] home
+[04:12:50] map_selection
+[04:12:54] Selected map: Workshop
+[04:12:57] Selected difficulty: Impoppable
+[04:13:01] in_game
+[04:13:02] Double Cash detected
+[04:24:39] Waiting for the game to end...
+[04:27:44] Insta monkey detected
+[04:27:50] Victory (16 Victories, 0 Defeats)
+[04:27:51] collect
+[04:28:01] looking for farm
+[04:28:01] looking for ace
+[04:28:01] looking for druid
+[04:28:01] looking for wizard
+[04:28:01] Selected random
+[04:28:03] Opening boxes
+[04:28:11] event
+[04:28:12] home
+[04:28:14] map_selection
+[04:28:16] Selected map: Sanctuary
+[04:28:18] Selected difficulty: Impoppable
+[04:28:23] in_game
+[04:43:42] Waiting for the game to end...
+[04:45:38] Insta monkey detected
+[04:45:44] Victory (17 Victories, 0 Defeats)
+[04:45:44] home
+[04:45:46] map_selection
+[04:45:50] Selected map: Workshop
+[04:45:52] Selected difficulty: Impoppable
+[04:45:56] in_game
+[04:45:57] Double Cash detected
+[04:57:32] Waiting for the game to end...
+[05:00:37] Insta monkey detected
+[05:00:43] Victory (18 Victories, 0 Defeats)
+[05:00:43] collect
+[05:00:53] looking for farm
+[05:00:53] looking for ace
+[05:00:53] looking for druid
+[05:00:54] looking for wizard
+[05:00:54] Selected random
+[05:00:56] Opening boxes
+[05:01:03] event
+[05:01:05] home
+[05:01:06] map_selection
+[05:01:09] Selected map: Ravine
+[05:01:11] Selected difficulty: Impoppable
+[05:01:15] in_game
+[05:01:16] Double Cash detected
+[05:12:22] Waiting for the game to end...
+[05:15:55] Insta monkey detected
+[05:16:01] Victory (19 Victories, 0 Defeats)
+[05:16:02] collect
+[05:16:12] looking for farm
+[05:16:12] looking for ace
+[05:16:12] looking for druid
+[05:16:12] looking for wizard
+[05:16:12] Selected random
+[05:16:14] Opening boxes
+[05:16:21] event
+[05:16:23] home
+[05:16:24] map_selection
+[05:16:28] Selected map: Dark Castle
+[05:16:30] Selected difficulty: Impoppable
+[05:16:35] in_game
+[05:16:36] Double Cash detected
+[05:27:07] Waiting for the game to end...
+[05:31:16] Insta monkey detected
+[05:31:21] Victory (20 Victories, 0 Defeats)
+[05:31:22] collect
+[05:31:32] looking for farm
+[05:31:32] looking for ace
+[05:31:32] looking for druid
+[05:31:32] looking for wizard
+[05:31:32] Selected random
+[05:31:34] Opening boxes
+[05:31:42] event
+[05:31:43] home
+[05:31:45] map_selection
+[05:31:47] Selected map: Sanctuary
+[05:31:49] Selected difficulty: Impoppable
+[05:31:54] in_game
+[05:47:18] Waiting for the game to end...
+[05:49:15] Insta monkey detected
+[05:49:21] Victory (21 Victories, 0 Defeats)
+[05:49:21] collect
+[05:49:31] looking for farm
+[05:49:31] looking for ace
+[05:49:31] looking for druid
+[05:49:31] looking for wizard
+[05:49:31] Selected random
+[05:49:33] Opening boxes
+[05:49:41] event
+[05:49:43] home
+[05:49:44] map_selection
+[05:49:46] Selected map: Flooded Valley
+[05:49:49] Selected difficulty: Impoppable
+[05:49:53] in_game
+[05:49:54] Double Cash detected
+[06:01:24] Waiting for the game to end...
+[06:04:12] Insta monkey detected
+[06:04:18] Victory (22 Victories, 0 Defeats)
+[06:04:18] home
+[06:04:19] map_selection
+[06:04:22] Selected map: Glacial Trail
+[06:04:23] Changing the hero to sauda
+[06:04:28] Selected difficulty: Impoppable
+[06:04:33] in_game
+[06:21:24] Waiting for the game to end...
+[06:21:54] Insta monkey detected
+[06:22:00] Victory (23 Victories, 0 Defeats)
+[06:22:01] collect
+[06:22:11] looking for farm
+[06:22:11] looking for ace
+[06:22:11] looking for druid
+[06:22:11] looking for wizard
+[06:22:11] Selected random
+[06:22:13] Opening boxes
+[06:22:21] event
+[06:22:22] home
+[06:22:24] map_selection
+[06:22:28] Selected map: #Ouch
+[06:22:29] Changing the hero to benjamin
+[06:22:34] Selected difficulty: Impoppable
+[06:22:39] in_game
+[06:22:40] Double Cash detected
+[06:34:25] Waiting for the game to end...
+[06:37:08] Insta monkey detected
+[06:37:14] Victory (24 Victories, 0 Defeats)
+[06:37:14] collect
+[06:37:24] looking for farm
+[06:37:24] looking for ace
+[06:37:24] looking for druid
+[06:37:24] looking for wizard
+[06:37:24] Selected random
+[06:37:26] Opening boxes
+[06:37:34] event
+[06:37:36] home
+[06:37:37] map_selection
+[06:37:41] Selected map: Muddy Puddles
+[06:37:43] Selected difficulty: Impoppable
+[06:37:48] in_game
+[06:37:49] Double Cash detected
+[06:47:05] Waiting for the game to end...
+[06:52:01] Insta monkey detected
+[06:52:07] Victory (25 Victories, 0 Defeats)
+[06:52:07] collect
+[06:52:17] looking for farm
+[06:52:18] looking for ace
+[06:52:18] looking for druid
+[06:52:18] looking for wizard
+[06:52:18] Selected random
+[06:52:20] Opening boxes
+[06:52:28] event
+[06:52:29] home
+[06:52:30] map_selection
+[06:52:33] Selected map: Ravine
+[06:52:35] Selected difficulty: Impoppable
+[06:52:39] in_game
+[06:52:40] Double Cash detected
+[07:03:39] Waiting for the game to end...
+[07:07:21] Insta monkey detected
+[07:07:27] Victory (26 Victories, 0 Defeats)
+[07:07:27] home
+[07:07:28] map_selection
+[07:07:30] Selected map: Sanctuary
+[07:07:33] Selected difficulty: Impoppable
+[07:07:37] in_game
+[07:23:00] Waiting for the game to end...
+[07:24:52] Insta monkey detected
+[07:24:58] Victory (27 Victories, 0 Defeats)
+[07:24:59] collect
+[07:25:09] looking for farm
+[07:25:09] looking for ace
+[07:25:09] looking for druid
+[07:25:09] looking for wizard
+[07:25:09] Selected random
+[07:25:11] Opening boxes
+[07:25:19] event
+[07:25:20] home
+[07:25:22] map_selection
+[07:25:25] Selected map: Bloody Puddles
+[07:25:28] Selected difficulty: Impoppable
+[07:25:32] in_game
+[07:25:33] Double Cash detected
+[07:35:55] Waiting for the game to end...
+[07:40:03] Insta monkey detected
+[07:40:09] Victory (28 Victories, 0 Defeats)
+[07:40:10] collect
+[07:40:20] looking for farm
+[07:40:20] looking for ace
+[07:40:20] looking for druid
+[07:40:20] looking for wizard
+[07:40:20] Selected random
+[07:40:22] Opening boxes
+[07:40:30] event
+[07:40:31] home
+[07:40:33] map_selection
+[07:40:37] Selected map: Quad
+[07:40:39] Selected difficulty: Impoppable
+[07:40:43] in_game
+[07:40:44] Double Cash detected
+[07:52:58] Waiting for the game to end...
+[07:57:11] Insta monkey detected
+[07:57:17] Victory (29 Victories, 0 Defeats)
+[07:57:17] collect
+[07:57:27] looking for farm
+[07:57:27] looking for ace
+[07:57:27] looking for druid
+[07:57:27] looking for wizard
+[07:57:28] Selected random
+[07:57:30] Opening boxes
+[07:57:37] event
+[07:57:39] home
+[07:57:40] map_selection
+[07:57:43] Selected map: Sanctuary
+[07:57:45] Selected difficulty: Impoppable
+[07:57:49] in_game
+[08:13:17] Waiting for the game to end...
+[08:15:09] Insta monkey detected
+[08:15:15] Victory (30 Victories, 0 Defeats)
+[08:15:15] home
+[08:15:16] map_selection
+[08:15:20] Selected map: Dark Castle
+[08:15:23] Selected difficulty: Impoppable
+[08:15:27] in_game
+[08:15:28] Double Cash detected
+[08:25:58] Waiting for the game to end...
+[08:30:09] Insta monkey detected
+[08:30:14] Victory (31 Victories, 0 Defeats)
+[08:30:15] collect
+[08:30:25] looking for farm
+[08:30:25] looking for ace
+[08:30:25] looking for druid
+[08:30:25] looking for wizard
+[08:30:25] Selected random
+[08:30:27] Opening boxes
+[08:30:35] event
+[08:30:37] home
+[08:30:38] map_selection
+[08:30:42] Selected map: Muddy Puddles
+[08:30:44] Selected difficulty: Impoppable
+[08:30:48] in_game
+[08:30:50] Double Cash detected
+[08:40:01] Waiting for the game to end...
+[08:45:02] Insta monkey detected
+[08:45:08] Victory (32 Victories, 0 Defeats)
+[08:45:08] collect
+[08:45:18] looking for farm
+[08:45:18] looking for ace
+[08:45:18] looking for druid
+[08:45:19] looking for wizard
+[08:45:19] Selected random
+[08:45:21] Opening boxes
+[08:45:28] event
+[08:45:30] home
+[08:45:31] map_selection
+[08:45:34] Selected map: Dark Dungeons
+[08:45:36] Selected difficulty: Impoppable
+[08:45:40] in_game
+[08:45:41] Double Cash detected
+[08:56:28] Waiting for the game to end...
+[09:00:48] Insta monkey detected
+[09:00:54] Victory (33 Victories, 0 Defeats)
+[09:00:54] collect
+[09:01:04] looking for farm
+[09:01:04] looking for ace
+[09:01:04] looking for druid
+[09:01:04] looking for wizard
+[09:01:05] Selected random
+[09:01:07] Opening boxes
+[09:01:14] event
+[09:01:16] home
+[09:01:17] map_selection
+[09:01:21] Selected map: Quad
+[09:01:23] Selected difficulty: Impoppable
+[09:01:28] in_game
+[09:01:29] Double Cash detected
+[09:13:45] Waiting for the game to end...
+[09:17:58] Insta monkey detected
+[09:18:04] Victory (34 Victories, 0 Defeats)
+[09:18:04] collect
+[09:18:14] looking for farm
+[09:18:15] looking for ace
+[09:18:15] looking for druid
+[09:18:15] looking for wizard
+[09:18:15] Selected random
+[09:18:17] Opening boxes
+[09:18:25] event
+[09:18:26] home
+[09:18:27] map_selection
+[09:18:30] Selected map: Sanctuary
+[09:18:32] Selected difficulty: Impoppable
+[09:18:36] in_game
+[09:34:03] Waiting for the game to end...
+[09:36:02] Insta monkey detected
+[09:36:07] Victory (35 Victories, 0 Defeats)
+[09:36:07] home
+[09:36:09] map_selection
+[09:36:13] Selected map: Workshop
+[09:36:15] Selected difficulty: Impoppable
+[09:36:19] in_game
+[09:36:20] Double Cash detected
+[09:47:57] Waiting for the game to end...
+[09:51:01] Insta monkey detected
+[09:51:07] Victory (36 Victories, 0 Defeats)
+[09:51:08] collect
+[09:51:18] looking for farm
+[09:51:18] looking for ace
+[09:51:18] looking for druid
+[09:51:18] looking for wizard
+[09:51:18] Selected random
+[09:51:20] Opening boxes
+[09:51:28] event
+[09:51:29] home
+[09:51:31] map_selection
+[09:51:33] Selected map: Flooded Valley
+[09:51:35] Selected difficulty: Impoppable
+[09:51:40] in_game
+[09:51:41] Double Cash detected
+[10:03:10] Waiting for the game to end...
+[10:05:59] Insta monkey detected
+[10:06:05] Victory (37 Victories, 0 Defeats)
+[10:06:05] collect
+[10:06:15] looking for farm
+[10:06:16] looking for ace
+[10:06:16] looking for druid
+[10:06:16] looking for wizard
+[10:06:16] Selected random
+[10:06:18] Opening boxes
+[10:06:25] event
+[10:06:27] home
+[10:06:28] map_selection
+[10:06:31] Selected map: Glacial Trail
+[10:06:32] Changing the hero to sauda
+[10:06:37] Selected difficulty: Impoppable
+[10:06:41] in_game
+[10:16:34] Level up detected
+[10:23:32] Waiting for the game to end...
+[10:24:03] Insta monkey detected
+[10:24:08] Victory (38 Victories, 0 Defeats)
+[10:24:09] collect
+[10:24:19] looking for farm
+[10:24:19] looking for ace
+[10:24:19] looking for druid
+[10:24:19] looking for wizard
+[10:24:19] Selected random
+[10:24:21] Opening boxes
+[10:24:29] event
+[10:24:30] home
+[10:24:32] map_selection
+[10:24:36] Selected map: Muddy Puddles
+[10:24:37] Changing the hero to benjamin
+[10:24:43] Selected difficulty: Impoppable
+[10:24:47] in_game
+[10:24:48] Double Cash detected
+[10:34:05] Waiting for the game to end...
+[10:39:00] Insta monkey detected
+[10:39:06] Victory (39 Victories, 0 Defeats)
+[10:39:06] home
+[10:39:07] map_selection
+[10:39:10] Selected map: Infernal
+[10:39:12] Selected difficulty: Impoppable
+[10:39:16] in_game
+[10:39:18] Double Cash detected
+[10:52:26] Waiting for the game to end...
+[10:53:38] Insta monkey detected
+[10:53:44] Victory (40 Victories, 0 Defeats)
+[10:53:44] collect
+[10:53:54] looking for farm
+[10:53:54] looking for ace
+[10:53:55] looking for druid
+[10:53:55] looking for wizard
+[10:53:55] Selected random
+[10:53:57] Opening boxes
+[10:54:04] event
+[10:54:06] home
+[10:54:07] map_selection
+[10:54:11] Selected map: Workshop
+[10:54:14] Selected difficulty: Impoppable
+[10:54:18] in_game
+[10:54:19] Double Cash detected
+[11:03:11] Waiting for the game to end...
+[11:09:54] Insta monkey detected
+[11:10:00] Victory (41 Victories, 0 Defeats)
+[11:10:00] home
+[11:10:01] map_selection
+[20:19:31] Script stopped
