@@ -16,10 +16,19 @@
 }
 
 TestHeroSelection() {
-    counter := 0
-    while(ClickImage("towers\" "wizard") != true){
-        ++counter
-        Sleep(1000)
+    counterTolerance := 0
+    counterImag := 0
+    loop 11{
+        counterTolerance := 0
+        loop 120{
+            if ImageSearch(&xCoord, &yCoord, 0, 0, 1920, 1080, "*" counterTolerance " *TransBlack " A_ScriptDir "\img\towers\SuperTest\" counterImag ".png") {
+                LogMsg("Found with tolerance " counterTolerance "and insta " counterImag)
+                click(xCoord, yCoord)
+            }
+            click(1920/2, 1080/2)
+            ++counterTolerance
+        }
+        ++counterImag
     }
 }
 

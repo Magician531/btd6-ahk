@@ -12,13 +12,13 @@ CheckLevelUp() {
 CheckInstaMonkey() {
     if ClickImage("states\insta_monkey") {
         LogMsg("Insta monkey detected")
+	return true
     }
 }
 
 CheckPauseMenu() {
-    Sleep(1400)
-    MouseMove(30, 1)
-    Sleep(100)
+    MouseMove(1, 1)
+    Sleep(1500)
     if SearchImage("buttons\home") {
         LogMsg("Pause menu detected on round " currentRound)
         Send("{Esc}")
@@ -26,12 +26,8 @@ CheckPauseMenu() {
 }
 
 WaitForRound(round, delay := 0) {
-    if defeated or SearchImage("states\defeat") {
-        global defeated := true
-    } else {
-        CheckPauseMenu()
-        MouseMove(mouseRest[1], mouseRest[2])
-    }
+    CheckPauseMenu()
+    MouseMove(mouseRest[1], mouseRest[2])
     if speed_adjust {
         return
     }
@@ -89,7 +85,7 @@ WaitForUpgrade(path) {
         if SearchUpgrade(path) {
             break
         }
-        if SearchImage("states\defeat") or SearchImage("states\victory") {
+        if SearchImage("states\defeat") or SearchImage("states\victory") or CheckInstaMonkey() {
             global defeated := true
             LogMsg("Found defeat instead of upgrade " path " on " toweropen)
             break
@@ -109,7 +105,7 @@ WaitForAbility(tower, ability, position, delay := 0) {
         if defeated {
             break
         }
-        if SearchImage("states\defeat") or SearchImage("states\victory") {
+        if SearchImage("states\defeat") or SearchImage("states\victory") or CheckInstaMonkey() {
             global defeated := true
             LogMsg("Found defeat instead of ability " ability " from " tower)
             break
@@ -131,7 +127,7 @@ Wait(delay) {
         return
     }
     Sleep(delay)
-    if SearchImage("states\defeat") or SearchImage("states\victory") {
+    if SearchImage("states\defeat") or SearchImage("states\victory") or CheckInstaMonkey() {
         global defeated := true
     }
 }
