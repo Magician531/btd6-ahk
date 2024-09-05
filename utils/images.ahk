@@ -57,3 +57,14 @@ CheckDoubleCash(speed := true, power := "unchanged") {
         }
     }
 }
+
+SearchInsta(instaType) {
+    loop 11{
+        if ImageSearch(&xCoord, &yCoord, 0, 0, 1920, 1080, "*" 120 " *TransBlack " A_ScriptDir "\img\towers\" instaType "\" A_Index - 1 ".png") {
+            LogMsg("Found " instaType)
+            click(xCoord, yCoord)
+            return true
+        }
+    }
+    return false
+}

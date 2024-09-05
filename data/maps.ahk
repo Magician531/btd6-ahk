@@ -27,6 +27,7 @@ global MAPS := [
         ["Four Circles", FOUR_CIRCLES_DATA],
         ["Hedge", HEDGE_DATA],
         ["End of the Road", END_OF_THE_ROAD_DATA],
+        ["Other", LOGS_DATA],
         ["Logs", LOGS_DATA]
     ],
     [

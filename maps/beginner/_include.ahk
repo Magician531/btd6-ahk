@@ -1,7 +1,9 @@
 #Include monkey_meadow.ahk
+#Include in_the_loop.ahk
+#Include middle_of_the_road.ahk
+#Include tinkerton.ahk
 #Include tree_stump.ahk
 #Include town_center.ahk
-#Include middle_of_the_road.ahk
 #Include one_two_tree.ahk
 #Include scrapyard.ahk
 #Include the_cabin.ahk
@@ -14,7 +16,6 @@
 #Include park_path.ahk
 #Include alpine_run.ahk
 #Include frozen_over.ahk
-#Include in_the_loop.ahk
 #Include cubism.ahk
 #Include four_circles.ahk
 #Include hedge.ahk
